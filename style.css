@@ -1,0 +1,147 @@
+/* Sticky navigation bar */
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: rgba(36, 32, 56, 0.85); /* semi-transparent dark background */
+    z-index: 1000; /* stay above everything */
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  /* Center nav links */
+  .navbar nav {
+    display: flex;
+    justify-content: center; /* center horizontally */
+    gap: 2rem; /* space between links */
+  }
+  
+  /* Nav link styling */
+  .navbar nav a {
+    font-family: 'Chau Philomene One', sans-serif; /* same as hero */
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: var(--primary-color); /* same color style as hero */
+    text-decoration: none;
+    transition: color var(--transition-speed);
+  }
+  
+  .navbar nav a:hover {
+    color: var(--light-bg); /* change on hover */
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #333;
+    color: white;
+    padding: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  :root {
+    --dark-bg: #242038;
+    --light-bg: #f6f6f6be;
+    --text-color: #242038;
+    --primary-color: #E6CDAF;
+    --transition-speed: 0.3s;
+    --main-font: 'Chau Philomene One', sans-serif;
+    --title-font: 'Handelson-Three', 'Chau Philomene One', sans-serif;
+    --light-font: 'Handelson-One', 'Chau Philomene One', sans-serif;
+  }
+  
+  /* Hero section */
+  .hero {
+    position: relative;
+    height: 450px;
+    overflow: hidden;
+  }
+  
+  .hero-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    min-width: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: var(--primary-color);
+    text-align: left;
+  }
+  
+  /* H1 typing effect */
+  .typing {
+    font-family: var(--title-font);
+    font-size: 5rem;
+    font-weight: 700;
+    width: 16ch; /* adjust width to fit text */
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid var(--primary-color);
+    animation: typing 3s steps(16) 1 forwards, blink 0.75s step-end infinite;
+  }
+  
+  /* H2 typing effect, smaller */
+  .typing-sub {
+    font-family: var(--main-font);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    width: 25ch;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid var(--primary-color);
+    animation: typing 2.5s steps(25) 1 forwards 3s, blink 0.75s step-end infinite 3s;
+  }
+  
+  /* Typing keyframes */
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .typing {
+      font-size: 3rem;
+      width: 16ch;
+    }
+    .typing-sub {
+      font-size: 1.5rem;
+      width: 25ch;
+    }
+  }
+
+  
+  
+  section {
+    padding: 2rem;
+  }
+  
+  .project-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+  
