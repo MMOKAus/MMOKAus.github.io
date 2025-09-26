@@ -82,6 +82,13 @@
     z-index: -1;
   }
   
+  
+    .hero {
+      height: 50vh;          /* container matches video height */
+    }
+  
+  
+  
   .hero-text {
     position: absolute;
     top: 50%;
@@ -194,6 +201,7 @@
   align-items: flex-start; /* keeps top edges aligned */
   flex-wrap: wrap;         /* stacks on small screens */
 }
+
 .about-left {
   flex: 1;
   min-width: 300px;
@@ -211,8 +219,8 @@
 }
 
 .about-photo img {
-  max-width: 100%;
-  width: 280px;          
+  width: 100%;
+  max-width: 280px;          
   height: auto;
   border-radius: 8px;
   object-fit: cover;
@@ -289,6 +297,17 @@
     }
     .about-left, .about-right {
       width: 100%;
+      max-width: 600px;
+    }
+    .about-photo img {
+      width: 180px;             /* smaller photo */
+      height: auto;
+      margin: 0 auto var(--space-2x);
+    }
+  
+    .about-text {
+      max-width: 100%;
+      padding: 0 1rem;          /* add side padding */
     }
     .skills-list {
       justify-items: center;
