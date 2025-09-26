@@ -12,7 +12,7 @@
   /* Center nav links */
   .navbar nav {
     display: flex;
-    justify-content: center; /* center horizontally */
+    justify-content: center; 
     gap: 2rem; /* space between links */
   }
   
