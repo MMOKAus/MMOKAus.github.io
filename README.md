@@ -1,7 +1,7 @@
 # Olga_Kozlovskaia - Portfolio Task
 
 ​
-[My portfolio site] <a href="https://mmokaus.github.io/">My Portfolio</a>
+[My portfolio site](https://mmokaus.github.io/)
 ​
 
 ## Project Requirements
@@ -52,4 +52,7 @@ Buttons change on hover, pulsating call-to-action button, typing text in hero se
 
 #### image_title_goes_here
 
-![Screenshot of profile page](./screencapture2.png)
+![Screenshot main page](img/screencapture1.png)
+![Screenshot contact form page](img/screencapture2png.png)
+![Screenshot hover button 1](img/hover1.png)
+![Screenshot hover button 2](img/hover2.png)
