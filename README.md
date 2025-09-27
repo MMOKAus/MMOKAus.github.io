@@ -50,9 +50,18 @@ Buttons change on hover, pulsating call-to-action button, typing text in hero se
 >
 > You can do this by saving the images in a folder in your repo, and including them in your readme document with the following Markdown code:
 
-#### image_title_goes_here
+#### Screenshot main page
 
 ![Screenshot main page](img/screencapture1.png)
+
+#### Screenshot contact form page
+
 ![Screenshot contact form page](img/screencapture2png.png)
+
+#### Screenshot hover button 1
+
 ![Screenshot hover button 1](img/hover1.png)
+
+#### Screenshot hover button 2
+
 ![Screenshot hover button 2](img/hover2.png)
