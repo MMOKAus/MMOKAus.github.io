@@ -2,7 +2,7 @@
 .navbar {
     position: sticky;
     top: 0;
-    width: 100%;
+    /* width: 100%; */
     background-color: rgba(36, 32, 56, 0.85); /* semi-transparent dark background */
     z-index: 1000; /* stay above everything */
     padding: 1rem 2rem;
